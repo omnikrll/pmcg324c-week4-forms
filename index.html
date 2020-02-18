@@ -12,19 +12,19 @@
     <form>
       <div>
         <label for="name">Name:</label>
-        <input type="text" name="name">
+        <input type="text" name="name" required>
       </div>
       <div>
         <label for="email">Email:</label>
-        <input type="email" name="email">
+        <input type="email" name="email" required>
       </div>
       <div>
         <label for="toggle">Checkbox:</label>
-        <input type="checkbox" name="toggle">
+        <input type="checkbox" name="toggle" checked>
       </div>
       <div>
         <label for="radios">Radio Buttons:</label>
-        <input type="radio" name="radios" value="1">
+        <input type="radio" name="radios" value="1" checked>
         <input type="radio" name="radios" value="2">
         <input type="radio" name="radios" value="3">
       </div>
@@ -44,6 +44,9 @@
           <option>Chico</option>
           <option>Zeppo</option>
         </select>
+      </div>
+      <div>
+        <input type="submit" value="Submit">
       </div>
     </form>
 

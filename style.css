@@ -2,3 +2,7 @@ form div {
   padding: 16px 4px;
   border: 1px solid black;
 }
+
+input.invalid {
+  border: 2px dashed red;
+}
